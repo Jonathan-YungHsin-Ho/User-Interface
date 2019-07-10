@@ -106,11 +106,22 @@ nav a:hover {
 	transform: translateY(-5px);
 }
 
-.logo {
+.logo-bkgd {
 	display: inline-block;
-	text-decoration: underline;
+	width: 183px;
+	height: 36px;
 	float: right;
+	background-image: url("../img/logo.png");
+	background-color: white;
 }
+
+/* .logo {
+	display: inline-block;
+	width: 183px;
+	height: 36px;
+	float: right;
+
+} */
 
 .nav-shadow {
 	margin-top: 5px;
@@ -205,10 +216,10 @@ hr {
 	margin-bottom: 30px;
 }
 
-.middle-img {
+/* .middle-img {
 	width: 100%;
 	margin-bottom: 30px;
-}
+} */
 
 /* Footer Styles */
 p.center {
