@@ -197,6 +197,14 @@ hr {
 	left: 14px;
 }
 
+.middle-img-bkgd {
+	width: 876px;
+	height: 182px;
+	background-image: url("../img/mid-page-accent.jpg");
+	background-color: black;
+	margin-bottom: 30px;
+}
+
 .middle-img {
 	width: 100%;
 	margin-bottom: 30px;
