@@ -106,10 +106,13 @@ nav a:hover {
 	transform: translateY(-5px);
 }
 
-.logo {
+.logo-bkgd {
 	display: inline-block;
-	text-decoration: underline;
+	width: 183px;
+	height: 36px;
 	float: right;
+	background-image: url("../img/logo.png");
+	background-color: white;
 }
 
 .nav-shadow {
@@ -148,12 +151,16 @@ nav a:hover {
 	margin-bottom: 0px;
 }
 
-.main-img {
-	position: absolute;
+.main-img-bkgd {
+	display: inline-block;
+	width: 379px;
+	height: 379px;
 	margin-top: 50px;
 	margin-bottom: 25px;
+	position: absolute;
 	right: 0px;
-	background-color: url(img/header-img.png);
+	background-image: url(../img/header-img.png);
+	background-color: white;
 }
 
 button {
@@ -197,8 +204,11 @@ hr {
 	left: 14px;
 }
 
-.middle-img {
-	width: 100%;
+.middle-img-bkgd {
+	width: 876px;
+	height: 182px;
+	background-image: url("../img/mid-page-accent.jpg");
+	background-color: black;
 	margin-bottom: 30px;
 }
 
